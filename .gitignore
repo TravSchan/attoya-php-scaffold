@@ -1,0 +1,41 @@
+
+
+# Cache/Static
+/cache
+!/cache/static/.gitkeep
+!/cache/template/.gitkeep
+
+# Interface
+/interface/apache/static
+
+# Directories
+/data
+
+# Vendor
+/lib/vendor/smarty3
+/lib/vendor/attoya
+/lib/vendor/static/attoya
+
+# Local Files
+/config/config_environment.php
+/config/config_server.php
+
+# Large Files
+*.zip
+*.rar
+*.exe
+
+# Temp Files
+/tmp/*
+
+# Log Files
+/*.log
+/log/*
+
+# Development
+/.vscode
+!*.md
+*.swp
+.noseids
+*~
+~*
